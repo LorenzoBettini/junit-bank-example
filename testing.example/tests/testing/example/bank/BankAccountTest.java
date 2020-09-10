@@ -35,8 +35,10 @@ public class BankAccountTest {
 	// Works only if this is the first executed test
 //	@Test
 //	public void testIdsAreIncrementalWrong() {
-//		assertEquals(1, new BankAccount().getId());
-//		assertEquals(2, new BankAccount().getId());
+//		BankAccount firstAccount = new BankAccount();
+//		BankAccount secondAccount = new BankAccount();
+//		assertEquals(1, firstAccount.getId());
+//		assertEquals(2, secondAccount.getId());
 //	}
 
 	@Test
