@@ -25,8 +25,10 @@ public class BankAccountTest {
 
 	@Test
 	public void testIdsAreIncremental() {
+		BankAccount firstAccount = new BankAccount();
+		BankAccount secondAccount = new BankAccount();
 		assertTrue("Ids should be incremental",
-			new BankAccount().getId() < new BankAccount().getId());
+			firstAccount.getId() < secondAccount.getId());
 	}
 
 	// WRONG VERSION!
