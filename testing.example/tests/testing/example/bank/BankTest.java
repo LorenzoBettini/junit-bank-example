@@ -13,9 +13,9 @@ import org.junit.rules.ExpectedException;
 
 public class BankTest {
 
-	private static final int AMOUNT = 5;
+	private static final double AMOUNT = 5;
 
-	private static final int INITIAL_BALANCE = 10;
+	private static final double INITIAL_BALANCE = 10;
 
 	@Rule
 	public ExpectedException thrown = ExpectedException.none();

@@ -11,9 +11,9 @@ public class BankAccountTest {
 	@Rule
 	public ExpectedException thrown = ExpectedException.none();
 
-	private static final int AMOUNT = 3;
+	private static final double AMOUNT = 3;
 
-	private static final int INITIAL_BALANCE = 10;
+	private static final double INITIAL_BALANCE = 10;
 
 	@Test
 	public void testIdIsAutomaticallyAssignedAsPositiveNumber() {
