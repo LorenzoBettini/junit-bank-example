@@ -1,6 +1,6 @@
 # junit-bank-example
 
-Simple JUnit example
+Simple JUnit 4 example
 
 An example of Chapter _Junit_ of the book
 
